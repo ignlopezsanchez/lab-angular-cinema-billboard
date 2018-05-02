@@ -1,0 +1,8 @@
+<h1>MOVIES</h1>
+<ul>
+  <li *ngFor="let movie of newMovies, let i=index">
+    <h3>{{movie.title}}</h3>
+    <a [routerLink]="['/movie',movie.id]"><img src="{{movie.poster}}" alt="movie"></a>
+
+  </li>
+</ul>
