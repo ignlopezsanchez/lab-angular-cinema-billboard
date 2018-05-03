@@ -1,3 +1,12 @@
 img{
   max-width: 200px;;
 }
+.format{
+  float:left;
+  padding: 20px;
+}
+.boton{
+  background-color: grey;
+  padding: 10px;
+  color: red;
+}
